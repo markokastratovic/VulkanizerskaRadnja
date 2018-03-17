@@ -1,7 +1,7 @@
 package gume.radnja;
 /**
  * @author Marko Kastratovic
- * 
+ * @version 1.0
  */
 import java.util.LinkedList;
 import gume.AutoGuma;
@@ -11,6 +11,11 @@ public class VulkanizerskaRadnja {
 	 * Lista guma
 	 */
 	private LinkedList<AutoGuma> gume = new LinkedList<AutoGuma>();
+	
+	public LinkedList<AutoGuma> getGume() {
+		return gume;
+	}
+	
 	/**
 	 * Dodaje novu gumu u na pocetak liste guma
 	 * @param a nova guma
