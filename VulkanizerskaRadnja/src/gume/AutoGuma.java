@@ -101,9 +101,9 @@ public class AutoGuma {
 	 * @throws java.lang.RuntimeException ako je uneta:
 	 * <ul> 
 	 * 
-	 * <li>visina <25</li>
+	 * <li>visina manja od 25</li>
 	 * 
-	 * <li>visina >95</li>
+	 * <li>visina veca od 95</li>
 	 * 
 	 * </ul>
 	 */
